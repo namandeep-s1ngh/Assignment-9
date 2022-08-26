@@ -1,0 +1,4 @@
+"id","firstname","middlename","lastname","email","phone","address","rid","cid","createdon","modifiedon"
+1,"Nav","Deep","Singh","nav@gmail.com","9876543210","Mohali","SA",1,"08/02/2019","26/8/2022"
+2,"Dev","Roy","Kapoor","dev@gmail.com","9876578976","Delhi","A",2,"09/07/2020","NA"
+3,"Sam","Well","Tarly","sam@gmail.com","8976547895","Dublin","S",3,"06/12/2021","NA"

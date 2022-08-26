@@ -1,0 +1,4 @@
+"name","key","description","rid"
+"Admin","A","Adminstrative Access",2
+"Subscriber","S","Resource Access",3
+"SuperAdmin","SA","Root Access",1

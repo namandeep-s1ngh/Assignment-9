@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Assignment 9 </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+      <button id="load" class="btn" onclick='showTable()'>Load Data</button>
+      <br> <br>   
+    
+      <div id="divison"></div>
+      <br><br><br>
+
+      <button id="add" class="btn" onclick="show_divison()" style="display: none ;"> Add Data </button>
+      <br><br><br>
+
+      <div id="divison2">
+          <p>
+              <label> First Name </label>
+              <input id="fname" type="text" name="fname" required>
+          </p>
+          <p>
+              <label> Middle Name </label>
+              <input id="mname" type="text" name="mname" required>
+          </p>
+          <p>
+              <label> Last Name </label>
+              <input id="lname" type="text" name="lname" required>
+          </p>
+          <p>
+              <label> Email </label>
+              <input id="email1" type="email" name="email1" required>
+          </p>
+          <p>
+              <label> Phone Number </label>
+              <input id="phone1" type="text" name="phone1" required>
+          </p> 
+           <p>
+              <label> Address </label>
+              <input id="address1" type="text" name="address1" required>
+          </p>
+          <p>
+            <label> Customer Name</label>
+            <form><select id="custname"> 
+              <option value=1> John </option> 
+              <option value=2> Dany </option>
+              <option value=3> Arnold </option>
+            </select></form>
+        </p> 
+          <p>
+            <label> Role </label>
+            <form><select id="role1"> 
+              <option value="SA"> SuperAdmin </option> 
+              <option value="A"> Admin </option>
+              <option value="S"> Subscriber </option>
+            </select></form>
+        </p> 
+      
+          <button id="submit" class="btn" onclick='dataEntry()'>Submit</button>
+
+      </div>
+      <p id="date_time"></p>
+      <script type="text/javascript" src="index.js" charset="utf-8"> </script> 
+      <script type="text/javascript" src="index2.js" charset="utf-8"> </script>   
+  </body>
+</html>

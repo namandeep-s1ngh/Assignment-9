@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: solid 2px #dddddd;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width:1300px;
+}
+
+th {
+    background-color: #E4F9F5;
+    font-weight:bold;
+}
+
+.btn {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#add #submit {
+    display: none;
+}
+
+#divison2 {
+    display: none;
+}
